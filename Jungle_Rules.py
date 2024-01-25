@@ -22,7 +22,4 @@ class Rules_class:
          print(f"hi,{type_animal_obj.name} is awake, what next?")
 
 
-    # def Conflict_Sleep(self):
-    #     if self.SleepCond==True:
-    #         return f"you can not make{0}. its sleeping",self.name
-        
+    

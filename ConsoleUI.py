@@ -12,7 +12,8 @@ class Menu:
                3 for appending an animal\
               4 for removing an animal\
               5 for searching in the list of animals\
-               6 for mating of two animals")
+               6 for mating of two animals\
+                7 for exit")
 
     def menu_apear(self,number):
         Animal_we_made=None
@@ -51,7 +52,7 @@ class Menu:
 
             case 5:
                 if (Menu.list_obj.IsEmpty()==True):
-                    print("there is no animal in the list to be removed")
+                    print("there is no animal in the list to be searched")
                     return                  
                 else:
                     Id = int(input("Please enter the id of the animal:")) 
@@ -78,8 +79,5 @@ class Menu:
                                 if(isinstance(mate_res,ANimal_class)):
                                     Menu.list_obj.append(mate_res)
                                     print("ok, now you have an a new animal with the name of{materes.name}")
-            
-            case default:
-             print("You are entering a wrong number!!!!!!!!!!!")
              
 

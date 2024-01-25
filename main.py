@@ -7,9 +7,14 @@ if(__name__=="__main__"):
     while True:
         menu_obj.menue_messages()
         try:
-             menu_obj.menu_apear(int(input("enter the number you want")))
+             menu_input=int(input("enter the number you want"))             
+             if (menu_input==7):
+                break
+             menu_obj.menu_apear(menu_input)        
+
+
         
         except:
-            print("You are entering a wrong number!!!!!!!!!!!")
+              print("You are entering a wrong number!!!!!!!!!!!")
 
 

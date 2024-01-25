@@ -1,7 +1,8 @@
 from Sleep import Sleep_class
 class chk_validity:
     @classmethod
-    def animal_gender_ckh(cls,gender_inp):            
+    def animal_gender_ckh(cls,gender_inp):
+            gender_inp=gender_inp.lower()            
             if(gender_inp in ("man","woman")):
                     return True
             else:

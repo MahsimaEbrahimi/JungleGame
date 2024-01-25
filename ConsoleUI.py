@@ -78,6 +78,6 @@ class Menu:
                                 mate_res= found_animal[0].Mate_method(found_animal[1])
                                 if(isinstance(mate_res,ANimal_class)):
                                     Menu.list_obj.append(mate_res)
-                                    print("ok, now you have an a new animal with the name of{materes.name}")
+                                    print("ok, now you have an a new animal")
              
 

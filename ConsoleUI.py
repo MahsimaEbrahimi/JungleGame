@@ -78,4 +78,8 @@ class Menu:
                                 if(isinstance(mate_res,ANimal_class)):
                                     Menu.list_obj.append(mate_res)
                                     print("ok, now you have an a new animal with the name of{materes.name}")
-      
+            
+            case default:
+             print("You are entering a wrong number!!!!!!!!!!!")
+             
+

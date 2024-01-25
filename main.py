@@ -6,5 +6,10 @@ if(__name__=="__main__"):
 
     while True:
         menu_obj.menue_messages()
-        menu_obj.menu_apear(int(input("enter the number you want")))
+        try:
+             menu_obj.menu_apear(int(input("enter the number you want")))
+        
+        except:
+            print("You are entering a wrong number!!!!!!!!!!!")
+
 
